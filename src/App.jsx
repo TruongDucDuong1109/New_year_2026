@@ -99,8 +99,16 @@ function App() {
 
     window.addEventListener('resize', handleResize);
 
+    let autoLaunchInterval = null;
+    let isTabVisible = true;
+
     // Animation loop
     const animate = () => {
+      if (!isTabVisible) {
+        animationRef.current = requestAnimationFrame(animate);
+        return;
+      }
+
       ctx.fillStyle = 'rgba(26, 0, 0, 0.1)';
       ctx.fillRect(0, 0, canvas.width, canvas.height);
 
@@ -132,19 +140,46 @@ function App() {
       animationRef.current = requestAnimationFrame(animate);
     };
 
-    animate();
+    // Start auto launch fireworks
+    const startAutoLaunch = () => {
+      if (autoLaunchInterval) clearInterval(autoLaunchInterval);
+      autoLaunchInterval = setInterval(() => {
+        if (isTabVisible) {
+          const types = ['classic', 'burst', 'ring', 'heart', 'spiral', 'star', 'willow', 'fountain'];
+          const randomType = types[Math.floor(Math.random() * types.length)];
+          launchFirework(randomType);
+        }
+      }, 3000);
+    };
 
-    // Auto launch fireworks
-    const autoLaunch = setInterval(() => {
-      const types = ['classic', 'burst', 'ring', 'heart', 'spiral', 'star', 'willow', 'fountain'];
-      const randomType = types[Math.floor(Math.random() * types.length)];
-      launchFirework(randomType);
-    }, 3000);
+    // Handle visibility change
+    const handleVisibilityChange = () => {
+      isTabVisible = !document.hidden;
+      
+      if (isTabVisible) {
+        // Tab is visible again, resume
+        startAutoLaunch();
+      } else {
+        // Tab is hidden, pause auto launch
+        if (autoLaunchInterval) {
+          clearInterval(autoLaunchInterval);
+          autoLaunchInterval = null;
+        }
+        // Clear existing particles to prevent lag when coming back
+        particlesRef.current = [];
+      }
+    };
+
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    animate();
+    startAutoLaunch();
 
     return () => {
       window.removeEventListener('resize', handleResize);
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
       cancelAnimationFrame(animationRef.current);
-      clearInterval(autoLaunch);
+      if (autoLaunchInterval) clearInterval(autoLaunchInterval);
     };
   }, []);
 
