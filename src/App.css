@@ -9,7 +9,6 @@ body {
     background: linear-gradient(180deg, #1a0000 0%, #2d1810 50%, #1a0000 100%);
     color: #fff;
     overflow-x: hidden;
-    min-height: 90vh;
     position: relative;
 }
 
@@ -65,6 +64,23 @@ body::before {
     }
 }
 
+/* Company Logo */
+.company-logo {
+    position: fixed;
+    top: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 150;
+    padding: 15px;
+    }
+
+.company-logo img {
+    height: 60px;
+    width: auto;
+    display: block;
+    filter: drop-shadow(0 2px 8px rgba(212, 175, 55, 0.4));
+}
+
 /* Sound Toggle Button */
 .btn-sound-toggle {
     position: fixed;
@@ -100,7 +116,7 @@ body::before {
 /* Container */
 .container {
     max-width: 1200px;
-    margin: 70px auto 20px;
+    margin: 170px auto 20px;
     padding: 20px;
     text-align: center;
     position: relative;

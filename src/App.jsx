@@ -3,6 +3,7 @@ import { fortunes } from './data/fortunes';
 import fireworkSound from './assets/sounds/firework.mp3';
 import firework5Sound from './assets/sounds/firework_5.mp3';
 import fireworkSingleSound from './assets/sounds/single_firework.mp3';
+import logo from './assets/Logo_Itech.svg';
 import './App.css';
 
 function App() {
@@ -154,7 +155,9 @@ function App() {
     const x = Math.random() * canvas.width;
     const y = Math.random() * canvas.height * 0.5 + 50;
     createFirework(x, y, type);
-    playFireworkSound(type);
+    if (isSoundOn) {
+      playFireworkSound(type);
+    }
   };
 
   const createFirework = (x, y, type) => {
@@ -329,6 +332,11 @@ function App() {
           <span className="ticker-item">🎊 bảy giờ cho đêm giao thừa, vào đêm giao thừa sẽ bắn pháo hoa 1 tiếng 🎊</span>
           <span className="ticker-item">🎊 bảy giờ cho đêm giao thừa, vào đêm giao thừa sẽ bắn pháo hoa 1 tiếng 🎊</span>
         </div>
+      </div>
+
+      {/* Company Logo */}
+      <div className="company-logo">
+        <img src={logo} alt="iTech Logo" />
       </div>
 
       {/* Lantern Left */}
