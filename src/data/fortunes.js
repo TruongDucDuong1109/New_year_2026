@@ -249,5 +249,75 @@ export const fortunes = [
         title: "鼎 - ĐỈNH - Hỏa Phong Đỉnh",
         message: "Mộc thượng hữu hỏa, đỉnh.\nNhư đỉnh nấu cao lương, thành tựu vĩ đại.\nTrọng trách trên vai, đại nghiệp trên đường.\nThiên hạ trọng vọng, công danh vạn đại.",
         meaning: "Bạn đang gánh vác trọng trách lớn.\nHãy tự hào với vị trí và nhiệm vụ của mình."
+    },
+    {
+        title: "震 - CHẤN - Chấn Vi Lôi",
+        message: "Sấm vang liên tiếp, chấn động trời đất.\nGiật mình lo sợ, nhưng rồi cũng qua.\nSau tiếng sấm ầm ĩ, mưa giông kéo đến.\nCẩn thận trong lời nói, thận trọng trong việc làm.",
+        meaning: "Thời kỳ bất ổn và biến động.\nHãy giữ bình tĩnh, mọi chuyện sẽ yên ổn sau cơn giông."
+    },
+    {
+        title: "艮 - CẤN - Cấn Vi Sơn",
+        message: "Núi đứng trước mặt, đường khó tiến lên.\nDừng lại quan sát, chờ thời mới động.\nVội vàng gặp họa, chậm chạp mất thời.\nBiết tiến biết lui, mới là cao minh.",
+        meaning: "Đây không phải lúc để tiến lên.\nHãy dừng lại, suy ngẫm và chờ thời cơ tốt hơn."
+    },
+    {
+        title: "渙 - HOÁN - Phong Thủy Hoán",
+        message: "Gió thổi nước tản, người tan của mất.\nĐoàn tụ khó khăn, ly tán dễ dàng.\nCủa cải phân tán, tâm trí lưỡng nan.\nCần sự đoàn kết, mới vượt qua khó khăn.",
+        meaning: "Thời kỳ tản mát và chia ly.\nHãy cố gắng giữ mọi thứ ổn định, tránh để mất mát thêm."
+    },
+    {
+        title: "節 - TIẾT - Thủy Trạch Tiết",
+        message: "Nước trong ao vơi, cần phải tiết kiệm.\nQuá độ sẽ khổ, thiếu hụt cần lo.\nTiết độ trong chi tiêu, điều độ trong sinh hoạt.\nKhắc khổ tạm thời, mai sau sẽ sung túc.",
+        meaning: "Cần phải tiết kiệm và sống điều độ.\nĐừng hoang phí, tài nguyên đang hạn chế."
+    },
+    {
+        title: "中孚 - TRUNG PHU - Phong Trạch Trung Phu",
+        message: "Lòng thành chưa đủ, tin cậy còn thiếu.\nNói một làm khác, người xa lòng người.\nMuốn được tin cậy, phải thật thà trước.\nChân thành đãi người, tự nhiên được lòng.",
+        meaning: "Sự thiếu trung thực đang gây trở ngại.\nHãy sống chân thành hơn để lấy lại lòng tin."
+    },
+    {
+        title: "小過 - TIỂU QUÁ - Lôi Sơn Tiểu Quá",
+        message: "Lỗi lầm nhỏ nhặt, tích tụ thành lớn.\nKhông chú ý chi tiết, sai lầm ập đến.\nQuá khiêm nhường mất uy, quá tự cao mất bạn.\nTrung dung là đạo, mới được an toàn.",
+        meaning: "Những lỗi nhỏ đang tích tụ.\nHãy chú ý đến chi tiết và sửa chữa kịp thời."
+    },
+    {
+        title: "既濟 - KÝ TẾ - Thủy Hỏa Ký Tế",
+        message: "Đã thành công rồi, nhưng chớ tự mãn.\nTận cùng vinh quang, là lúc suy tàn.\nCực thịnh suy vi, đầy tràn tất đổ.\nGiữ vững khiêm tốn, mới lâu dài được.",
+        meaning: "Đã thành công nhưng cần cẩn trọng.\nĐây có thể là đỉnh cao trước khi xuống dốc."
+    },
+    {
+        title: "未濟 - VỊ TẾ - Hỏa Thủy Vị Tế",
+        message: "Chưa xong việc lớn, đường vẫn còn xa.\nGần đích mà vấp, công sức phí phài.\nKiên trì đến cùng, mới không uổng công.\nDở dang bỏ cuộc, hối tiếc muộn màng.",
+        meaning: "Công việc chưa hoàn thành, đừng vội ăn mừng.\nCẩn thận ở những bước cuối cùng."
+    },
+    {
+        title: "歸妹 - QUY MUỘI - Lôi Trạch Quy Muội",
+        message: "Gả con gái đi, lòng cha lo lắng.\nHôn nhân vội vàng, sau này hối hận.\nThiếu suy xét kỹ, dễ gặp tai ương.\nQuyết định quan trọng, cần thận trọng cân nhắc.",
+        meaning: "Quyết định quan trọng được đưa ra quá vội.\nHãy suy nghĩ kỹ trước khi cam kết."
+    },
+    {
+        title: "豐 - PHONG - Lôi Hỏa Phong",
+        message: "Thịnh vượng tột đỉnh, nhưng nguy cơ rình rập.\nNhật trung tắc xà, nguyệt doanh tắc khuyết.\nPhong đăng tất suy, thịnh cực tất suy.\nBiết dừng đúng lúc, mới giữ được lâu.",
+        meaning: "Thời kỳ cực thịnh nhưng cần thận trọng.\nMọi thứ đều có chu kỳ, hãy chuẩn bị cho giai đoạn tiếp theo."
+    },
+    {
+        title: "旅 - LỮ - Hỏa Sơn Lữ",
+        message: "Khách lữ phương xa, cô đơn nơi đất khách.\nKhông nhà không cửa, không người không thân.\nGian khổ lưu lạc, bấp bênh không nơi nương tựa.\nTìm chỗ đứng vững, mới có ngày an cư.",
+        meaning: "Thời kỳ không ổn định, lang thang tứ xứ.\nHãy tìm kiếm sự ổn định và nơi để gắn bó."
+    },
+    {
+        title: "兌 - ĐOÀI - Đoài Vi Trạch",
+        message: "Vui vẻ bề ngoài, lo âu trong lòng.\nCười để che đau, nói để quên buồn.\nPhù phiếm tạm thời, chẳng được lâu dài.\nHạnh phúc chân thật, từ bên trong mà ra.",
+        meaning: "Niềm vui bề ngoài không che được nỗi lo bên trong.\nHãy đối diện với cảm xúc thật của mình."
+    },
+    {
+        title: "巽 - TỐN - Tốn Vi Phong",
+        message: "Gió thổi lung lay, không chỗ nào vững.\nThay đổi thất thường, khó lòng kế hoạch.\nTheo gió mà đổi, mất phương hướng.\nCần định hướng rõ, đừng dao động mãi.",
+        meaning: "Quá nhiều thay đổi khiến bạn mất phương hướng.\nHãy xác định mục tiêu rõ ràng và kiên định."
+    },
+    {
+        title: "夬 - QUÁI - Thiên Phong Quái",
+        message: "Quyết đoán quá mức, dễ gây tổn thương.\nCứng rắn thái quá, dễ gãy dễ gập.\nKhông dung nạp ý kiến, cô độc một mình.\nCân bằng cương nhu, mới là thượng sách.",
+        meaning: "Sự quyết đoán quá mức có thể gây hại.\nHãy lắng nghe ý kiến người khác trước khi hành động."
     }
 ];
