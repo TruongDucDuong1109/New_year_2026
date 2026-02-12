@@ -75,7 +75,7 @@ body::before {
     }
 
 .company-logo img {
-    height: 60px;
+    height: 80px;
     width: auto;
     display: block;
     filter: drop-shadow(0 2px 8px rgba(212, 175, 55, 0.4));
