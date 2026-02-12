@@ -401,7 +401,7 @@ function App() {
         {/* Message */}
         <p className="message">
           Chúc bạn một năm mới an khang thịnh vượng, vạn sự như ý. Cả năm<br/>
-          năm Bính Ngọ mang đến cho bạn sức mạnh và sự tự do.
+          Bính Ngọ mã đáo thành công.
         </p>
 
         {/* Buttons */}
