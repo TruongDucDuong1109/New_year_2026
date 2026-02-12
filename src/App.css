@@ -67,7 +67,7 @@ body::before {
 /* Company Logo */
 .company-logo {
     position: fixed;
-    top: 60px;
+    top: 47px;
     left: 50%;
     transform: translateX(-50%);
     z-index: 150;
@@ -116,7 +116,7 @@ body::before {
 /* Container */
 .container {
     max-width: 1200px;
-    margin: 170px auto 20px;
+    margin: 128px auto 20px;
     padding: 20px;
     text-align: center;
     position: relative;
