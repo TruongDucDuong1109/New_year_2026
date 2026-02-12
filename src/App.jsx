@@ -329,8 +329,8 @@ function App() {
       {/* Ticker */}
       <div className="ticker-wrap">
         <div className="ticker">
-          <span className="ticker-item">🎊 bảy giờ cho đêm giao thừa, vào đêm giao thừa sẽ bắn pháo hoa 1 tiếng 🎊</span>
-          <span className="ticker-item">🎊 bảy giờ cho đêm giao thừa, vào đêm giao thừa sẽ bắn pháo hoa 1 tiếng 🎊</span>
+          <span className="ticker-item">🎊 vào đêm giao thừa sẽ bắn pháo hoa 1 tiếng 🎊</span>
+          <span className="ticker-item">🎊 vào đêm giao thừa sẽ bắn pháo hoa 1 tiếng 🎊</span>
         </div>
       </div>
 
@@ -368,7 +368,7 @@ function App() {
       <div className="container">
         <h1 className="main-title">ĐÊM NGƯỢC TỚI</h1>
         <h2 className="year">2026</h2>
-        <p className="subtitle">—— Năm con ngựa ——</p>
+        <p className="subtitle">—— Năm Bính Ngọ ——</p>
 
         {/* Countdown */}
         <div className="countdown">
@@ -401,7 +401,7 @@ function App() {
         {/* Message */}
         <p className="message">
           Chúc bạn một năm mới an khang thịnh vượng, vạn sự như ý. Cả năm<br/>
-          năm con ngựa mang đến cho bạn sức mạnh và sự tự do.
+          năm Bính Ngọ mang đến cho bạn sức mạnh và sự tự do.
         </p>
 
         {/* Buttons */}

@@ -1,0 +1,45 @@
+<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'>
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#ffd700;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#d4af37;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#b8860b;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Horse silhouette -->
+  <g fill="url(#goldGrad)" stroke="#8b4513" stroke-width="0.5">
+    <!-- Head -->
+    <ellipse cx="50" cy="30" rx="8" ry="10" transform="rotate(-10 50 30)"/>
+    <!-- Ears -->
+    <path d="M 45 22 L 43 16 L 47 20 Z"/>
+    <path d="M 55 22 L 57 16 L 53 20 Z"/>
+    <!-- Mane -->
+    <path d="M 48 25 Q 42 28, 40 32 Q 38 35, 40 38"/>
+    <path d="M 50 24 Q 44 26, 42 30"/>
+    <path d="M 52 24 Q 56 26, 58 30"/>
+    <!-- Neck -->
+    <path d="M 50 35 Q 48 42, 45 50"/>
+    <path d="M 50 35 Q 52 42, 55 50"/>
+    <!-- Body -->
+    <ellipse cx="50" cy="55" rx="15" ry="18"/>
+    <!-- Legs front -->
+    <rect x="42" y="65" width="3" height="22" rx="1.5"/>
+    <rect x="48" y="65" width="3" height="22" rx="1.5"/>
+    <!-- Legs back -->
+    <rect x="54" y="65" width="3" height="20" rx="1.5"/>
+    <rect x="60" y="65" width="3" height="20" rx="1.5"/>
+    <!-- Tail -->
+    <path d="M 65 55 Q 72 52, 78 55 Q 82 58, 82 65 Q 82 72, 78 75" stroke-width="1" fill="none" stroke="#d4af37"/>
+    <path d="M 78 65 Q 84 63, 87 68" stroke-width="1" fill="none" stroke="#d4af37"/>
+    <!-- Eye -->
+    <circle cx="48" cy="28" r="1" fill="#000"/>
+    <!-- Decorative elements -->
+    <circle cx="50" cy="55" r="2" fill="#ff0000"/>
+    <path d="M 45 50 L 50 48 L 55 50" stroke="#ff0000" stroke-width="1" fill="none"/>
+  </g>
+  
+  <!-- Circle border -->
+  <circle cx="50" cy="50" r="48" fill="none" stroke="#d4af37" stroke-width="2"/>
+  <circle cx="50" cy="50" r="45" fill="none" stroke="#d4af37" stroke-width="0.5" opacity="0.5"/>
+</svg>
