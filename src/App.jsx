@@ -417,7 +417,7 @@ function App() {
             <div className="time-box">
               <div className="time-value" key={countdown.hours}>{pad(countdown.hours)}</div>
             </div>
-            <div className="time-label">GIỞ</div>
+            <div className="time-label">GIỜ</div>
           </div>
           <div className="time-item">
             <div className="time-box">
