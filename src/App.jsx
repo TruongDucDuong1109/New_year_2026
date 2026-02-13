@@ -401,7 +401,7 @@ function App() {
 
       {/* Main Container */}
       <div className="container">
-        <h1 className="main-title">ĐÊM NGƯỢC TỚI</h1>
+        <h1 className="main-title">ĐẾM NGƯỢC TỚI</h1>
         <h2 className="year">2026</h2>
         <p className="subtitle">—— Năm Bính Ngọ ——</p>
 
